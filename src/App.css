@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+h2 {
+  padding-bottom: 100px;
+}
+
+.flash-card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flash-card {
+  box-shadow: 5px 5px 15px grey;
+  cursor: pointer;
+  border: #282c34 1px solid;
+  width: 310px;
+  height: 310px;
+  margin: auto;
+  opacity: 0.6;
+  transition: 0.3s;
+  position: relative;
+}
+
+.flash-card:hover {
+  opacity: 1;
+}
+
+.flash-card img {
+  width: 310px;
+  height: 310px;
+}
+
+.flash-card-text {
+  width: 310px;
+  height: 290px;
+  overflow-y: scroll;
+}
+
+.rotateIcon {
+  position: absolute;
+  top: 280px;;
+  right: 15px;
+}
